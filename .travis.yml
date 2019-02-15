@@ -1,0 +1,9 @@
+os:
+  - linux
+  - windows
+language: java
+jdk:
+  - openjdk11
+install: true
+script: ./.travis.sh
+
