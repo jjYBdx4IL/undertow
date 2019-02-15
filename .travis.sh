@@ -1,7 +1,8 @@
 #!/bin/bash
 
-set -Eex
+set -Eev
 
+choco install unzip || :
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
