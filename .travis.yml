@@ -1,7 +1,7 @@
 language: c
 os:
-  - linux
   - windows
+  - linux
 script: ./.travis.sh
 
 
